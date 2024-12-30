@@ -2,7 +2,7 @@
 document.getElementById("remixButton").addEventListener("click", processContent());
 
 function processContent() {
-    const text = document.getElementById("content-input").value;
+    const text = document.getElementById("contentInput").value;
 
     if (!text) {
         alert("Please enter some content.");
